@@ -1,7 +1,6 @@
 # GridExtra
 GridExtra is a custom panel library for WPF/UWP.
 
-
 * ResponsiveGrid
     * Custom Panel class that provides bootstrap like grid system.
     * Grid system
@@ -16,9 +15,8 @@ GridExtra is a custom panel library for WPF/UWP.
 ## install
 *Nuget Package*  
 ```
-Install-Package GridExtra
+Install-Package GridExtra.Core.WPF
 ```
-https://www.nuget.org/packages/GridExtra/
 
 ### Preparation
 Add xmlns to xaml code.

@@ -1,0 +1,4 @@
+1. Update library version in both .csproj and .nuspec
+2. Build the solution in release config,
+3. Make sure you have nuget.exe, with a path to it added to PATH,
+4. double click .bat file

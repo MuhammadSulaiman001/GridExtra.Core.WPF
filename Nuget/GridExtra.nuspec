@@ -1,21 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>GridExtra</id>
-        <version>0.5.0</version>
-        <title>GridExtra</title>
-        <authors>SourceChord</authors>
-        <owners>SourceChord</owners>
-        <licenseUrl>https://github.com/sourcechord/GridExtra/blob/master/LICENSE</licenseUrl>
-        <projectUrl>https://github.com/sourcechord/GridExtra</projectUrl>
+        <id>GridExtra.Core.WPF</id>
+        <version>0.5.1</version>
+        <title>GridExtra.Core.WPF</title>
+        <authors>SourceChord, jozefchmelar, Muhammad Sulaiman</authors>
+        <owners>Muhammad Sulaiman</owners>
+	    <license type="expression">MIT</license>
+        <projectUrl>https://github.com/MuhammadSulaiman001/GridExtra.Core.WPF</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>GridExtra is a custom panel library for WPF/UWP.</description>
-        <copyright>Copyright 2016</copyright>
-        <tags>XAML WPF UWP Panel Library</tags>
+        <description>GridExtra is a custom panel library for WPF. 
+	        It can be used by both .net Core and .net Framework WPF applications..</description>
+	    <repository type="git" url="https://github.com/MuhammadSulaiman001/GridExtra.Core.WPF" branch="master" />
+	    <readme>docs\README.md</readme>
+		<releaseNotes>Targeted .netCore WPF applications</releaseNotes>
+		<copyright>Copyright 2016</copyright>
+        <tags>XAML WPF Panel Library</tags>
+	    <dependencies>
+		    <group targetFramework=".NETFramework4.5" />
+		    <group targetFramework=".NETCoreApp3.1" />
+	    </dependencies>
     </metadata>
     <files>
-        <file src="..\Build\Wpf\Release\net452\GridExtra.Wpf.dll" target="lib\net45\GridExtra.Wpf.dll" />
+        <file src="..\Build\Wpf\Release\net45\GridExtra.Wpf.dll" target="lib\net45\GridExtra.Wpf.dll" />
         <file src="..\Build\Wpf\Release\netcoreapp3.1\GridExtra.Wpf.dll" target="lib\netcoreapp3.1\GridExtra.Wpf.dll" />
-        <file src="..\Build\Uwp\Release\GridExtra.Uwp.dll" target="lib\uap10.0\GridExtra.Uwp.dll" />
+        <!--<file src="..\Build\Uwp\Release\GridExtra.Uwp.dll" target="lib\uap10.0\GridExtra.Uwp.dll" />-->
+        <file src="..\README.md" target="docs\" />
     </files>
 </package>
