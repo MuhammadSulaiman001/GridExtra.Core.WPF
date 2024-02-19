@@ -14,7 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{E1C85495-293B-4198-845C-6D7068A1961E}"
 	ProjectSection(SolutionItems) = preProject
 		Nuget\pack.bat = Nuget\pack.bat
-		HOW-TO.txt = HOW-TO.txt
+		Nuget\HOW-TO.txt = Nuget\HOW-TO.txt
 		Nuget\GridExtra.nuspec = Nuget\GridExtra.nuspec
 	EndProjectSection
 EndProject
